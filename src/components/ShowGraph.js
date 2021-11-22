@@ -37,8 +37,6 @@ const ShowGraph = (props) => {
     
     return(
         <div id="chart" style={{background:'pink'}}>
-             { console.log("props = ", props) }
-            {/* <ReactApexChart options={options} series={series} type="line" height={350} /> */}
             <Chart options={options} series={series} type="bar" width="450px" height="350px"
                 style={{paddingLeft:'15px', marginBottom:'20px'}} />
         </div>)
