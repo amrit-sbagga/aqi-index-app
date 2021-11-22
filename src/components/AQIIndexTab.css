@@ -1,0 +1,36 @@
+.font-link {
+    font-family: 'Caveat', cursive;
+    font-size: "22px";
+}
+
+.aqi-fonts {
+    font-size: "2rem";
+    color: 'black';
+    text-align: center;
+}
+
+.center-bold {
+    color: 'black';
+    text-align: center;
+    font-weight: bold;
+}
+.outborder {
+    border: 2px solid #110808;
+    border-radius: 2px;
+}
+
+table.table-bordered{
+    border : 2px solid #110808;
+}
+
+table.table-bordered > thead > tr > th{
+    border: 2px solid #110808;
+}
+
+table.table-bordered > tbody > tr > td{
+    border: 2px solid #110808;
+}
+
+.bgskyblue {
+  background : 'lightblue'
+}
