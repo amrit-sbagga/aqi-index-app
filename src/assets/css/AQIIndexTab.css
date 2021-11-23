@@ -34,3 +34,7 @@ table.table-bordered > tbody > tr > td{
 .bgskyblue {
   background : 'lightblue'
 }
+
+.margin10 {
+    margin-top : '10px'
+}
