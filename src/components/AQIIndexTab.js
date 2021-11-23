@@ -8,7 +8,7 @@ import { foundAQIColor } from '../utils/Utility';
 
 const AQIIndexTab = () => {
 
-    const WS_CITY_AQI_URL = process.env.WS_CITY_AQI_API_URL;
+    const WS_CITY_AQI_URL = process.env.REACT_APP_WS_CITY_AQI_URL;
     //console.log("WS_CITY_AQI_URL = ", WS_CITY_AQI_URL);
     const cityAQIArray = useMemo(() => [], []);
     const MAX_AQI_POINTS_PER_GRAPH = 4;
